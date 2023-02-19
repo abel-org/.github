@@ -1,0 +1,13 @@
+name: The 2nd workflow template
+
+on:
+  pull:
+    branches: [ $default-branch ]
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run a different script
+        run: echo "Smart person! You chose workflow 2!"
