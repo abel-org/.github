@@ -1,7 +1,7 @@
 {
     "name": "The 2nd Workflow Template",
     "description": "This is a different workflow template.",
-    "iconName": "workflow-2-icon",
+    "iconName": "test-template-icon",
     "categories": [
         "python"
     ],
