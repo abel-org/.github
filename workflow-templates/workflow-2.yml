@@ -1,7 +1,7 @@
 name: The 2nd workflow template
 
 on:
-  pull:
+  push:
     branches: [ $default-branch ]
 
 jobs:
